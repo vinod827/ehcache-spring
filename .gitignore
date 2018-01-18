@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .idea/compiler.xml
 	.idea/libraries/
 	.idea/misc.xml
@@ -6,7 +6,7 @@
 	.idea/uiDesigner.xml
 	.idea/workspace.xml
 	ehcachespringsample.iml
-=======
+
 # Compiled class file
 *.class
 
@@ -29,4 +29,3 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
->>>>>>> origin/master
