@@ -1,6 +1,8 @@
 package com.product.model;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable{
 
     int productId;
     String productName;
@@ -46,5 +48,13 @@ public class Product {
 
     public void setProductName(String productName) {
         this.productName = productName;
+    }
+
+    public Product(int productId, String productName, String productDescription, String createdDate, String updatedDate) {
+        this.productId = productId;
+        this.productName = productName;
+        this.productDescription = productDescription;
+        this.createdDate = createdDate;
+        this.updatedDate = updatedDate;
     }
 }
